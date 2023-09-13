@@ -74,7 +74,7 @@
         <?php
         if (isset($_GET['task'])) {
             $task = $_GET['task'];
-            include("$task.php");
+            include("$index.php");
         } else {
             echo "<h2>Welcome to PHP Tasks</h2>";
         }
